@@ -1,5 +1,9 @@
+import Calculator from "../components/calculator";
+
 export const Homepage = () => {
-    return (
-        <div> Salut </div>
-    )
-}
+  return (
+    <div>
+      <Calculator />
+    </div>
+  );
+};
