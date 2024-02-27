@@ -1,7 +1,3 @@
 export const Homepage = () => {
-  return (
-    <div>
-      <Calculator />
-    </div>
-  );
+  return <div>salut</div>;
 };
