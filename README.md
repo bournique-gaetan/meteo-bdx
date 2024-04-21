@@ -6,24 +6,18 @@ Cette application web affiche les informations météorologiques de la ville de 
 
 1. Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
 
-git clone <lien du dépôt>
+git clone git@github.com:bournique-gaetan/meteo-bdx.git
 
-bash
-Copy code
 
 2. Accédez au répertoire du projet :
 
 cd meteo-bordeaux
 
-markdown
-Copy code
 
 3. Installez les dépendances en exécutant la commande suivante :
 
 npm install
 
-rust
-Copy code
 
 ## Configuration de l'API
 
@@ -33,10 +27,9 @@ Avant de lancer l'application, assurez-vous d'obtenir une clé API gratuite sur 
 
 Une fois que les dépendances sont installées et que la clé API est configurée, vous pouvez lancer l'application en exécutant la commande suivante :
 
-npm start
+npm start ou npm run dev 
 
-markdown
-Copy code
+
 
 Cela démarrera un serveur de développement local et ouvrira l'application dans votre navigateur par défaut. Vous pourrez voir les informations météorologiques en temps réel pour la ville de Bordeaux.
 
